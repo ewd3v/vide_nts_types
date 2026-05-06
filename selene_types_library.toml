@@ -1,0 +1,6 @@
+[selene]
+name = "types_library"
+
+# TODO: Actually define it, though it isn't that important, as the default Luau linter will still catch misnomers.
+[types]
+any = true

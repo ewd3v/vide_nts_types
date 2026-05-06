@@ -44,9 +44,6 @@ jobs:
         with:
           pesde_token: ${{ secrets.PESDE_TOKEN || github.token }}
 
-      - name: Build package
-        run: pesde run build
-
       - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
@@ -89,6 +86,4 @@ jobs:
           prerelease: ${{ contains(github.ref_name, 'rc') }} # Checks for example v0.1.2-rc.1 etc, if you use other formats then you should change this
 
       - name: Publish package to pesde
-        run: |
-          cd dist
-          pesde publish --yes
+        run: pesde publish --yes
