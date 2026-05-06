@@ -7,4 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-05-06
+
 - Initial release
+
+[unreleased]: https://github.com/ewd3v/vide_nts_types/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/ewd3v/vide_nts_types/compare/3db3d41efc5a0fe3063b8cfbfbffaf8b880b3f2d...v0.1.0
